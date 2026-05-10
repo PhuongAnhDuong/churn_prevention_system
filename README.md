@@ -9,7 +9,7 @@ The system combines:
 - Customer lifetime modelling using BG/NBD
 - Collaborative filtering retrieval using ALS
 - Approximate nearest neighbour search with FAISS
-- Deep & Wide neural ranking for personalised recommendation
+- Deep & Wide ranking model implemented in PyTorch
 
 The objective is to identify customers at risk of churn and recommend relevant products to improve engagement and retention.
 
@@ -158,7 +158,7 @@ The ranking model was evaluated using a held-out user split to assess recommenda
 * NumPy
 * Scikit-learn
 * LightGBM
-* TensorFlow / Keras
+* PyTorch
 * Implicit ALS
 * FAISS
 * Lifetimes
