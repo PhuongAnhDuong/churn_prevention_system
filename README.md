@@ -165,6 +165,38 @@ The ranking model was evaluated using a held-out user split to assess recommenda
 * Jupyter Notebook
 
 ---
+## How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/PhuongAnhDuong/churn_prevention_system.git
+cd churn_prevention_system
+```
+
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Download the original dataset from Kaggle and place it in the `data/` folder:
+
+https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci
+
+4. Open and run the main notebook:
+
+```text
+churn_prevention_system.ipynb
+```
+
+5. To run the API locally:
+
+```bash
+cd api
+uvicorn app:app --reload
+```
+---
 
 ## Future Improvements
 
