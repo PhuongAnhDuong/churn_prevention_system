@@ -74,6 +74,8 @@ A smaller sample dataset is provided for demonstration purposes.
 
 ## Methodology
 
+Due to project scope and time constraints, the temporal evaluation was implemented using a train-test split rather than a full train-validation-test framework.
+
 ### 1. Churn Prediction
 
 A LightGBM classifier was trained using customer behavioural features such as:
